@@ -569,7 +569,7 @@
                                     <outlet property="delegate" destination="Jag-0r-uSc" id="EUH-fc-8br"/>
                                 </connections>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the genres you like. Hold to remove the genres you don't like" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqB-XB-AUj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the genres you like. Tap again to deselect the genres" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqB-XB-AUj">
                                 <rect key="frame" x="16" y="141.33333333333334" width="343" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="cgW-LF-bsT"/>
@@ -584,7 +584,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="reset:" destination="Jag-0r-uSc" eventType="touchUpInside" id="hRs-KP-isH"/>
+                                    <action selector="DoneBtnPressed:" destination="Jag-0r-uSc" eventType="touchUpInside" id="mqK-wv-cWw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbE-ot-mtr">
@@ -624,6 +624,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Rc0-8l-8Pt"/>
                     <connections>
+                        <outlet property="DoneBtn" destination="ze2-Q5-zac" id="wwR-3F-1bx"/>
                         <outlet property="magneticView" destination="oxC-kf-rQz" id="jRK-Rl-i0j"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="GenreToQues" id="aip-4d-8oK"/>
                         <segue destination="KRk-OK-kJF" kind="show" identifier="GenselectionToGenVsSurp" id="XuX-ym-hCl"/>

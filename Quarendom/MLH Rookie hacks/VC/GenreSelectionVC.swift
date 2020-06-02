@@ -13,6 +13,9 @@ import SpriteKit
 class GenreSelectionVC: UIViewController {
 
     var GenreSelection = [String]()
+    private var stopAdding = false
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -53,6 +56,7 @@ class GenreSelectionVC: UIViewController {
                 }
             }
             
+    @IBOutlet weak var DoneBtn: UIButton!
     @IBAction func add(_ sender: UIControl?, index idx : Int) {
                 let name = UIImage.names[idx]
                 let color = UIColor.colors.randomItem()
@@ -87,7 +91,7 @@ class GenreSelectionVC: UIViewController {
                         node.run(throwAction) { [unowned node] in
                             node.removeFromParent()
                         }
-                    } else {
+                    }else{
                         node.removeFromParent()
                     }
                 }
@@ -98,14 +102,18 @@ class GenreSelectionVC: UIViewController {
             magnetic.run(.sequence(actions)) { [unowned magnetic] in
                 magnetic.physicsWorld.speed = speed
             }
-//
-        if(!GenreSelection.isEmpty){
-           DispatchQueue.main.asyncAfter(deadline: .now() + 0.8, execute: {
-            self.performSegue(withIdentifier: "GenreToQues", sender: self)
-            })
-        }
-            
     }
+    
+    
+    @IBAction func DoneBtnPressed(_ sender: Any) {
+        if(!GenreSelection.isEmpty){
+                  reset(nil)
+                  DispatchQueue.main.asyncAfter(deadline: .now() + 0.8, execute: {
+                   self.performSegue(withIdentifier: "GenreToQues", sender: self)
+                   })
+               }
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == SegueIdentifiers().GenreToQues){
