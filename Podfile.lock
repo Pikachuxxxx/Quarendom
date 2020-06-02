@@ -1,0 +1,20 @@
+PODS:
+  - HCSStarRatingView (1.5)
+  - Magnetic (3.2.0)
+
+DEPENDENCIES:
+  - HCSStarRatingView (~> 1.5)
+  - Magnetic
+
+SPEC REPOS:
+  trunk:
+    - HCSStarRatingView
+    - Magnetic
+
+SPEC CHECKSUMS:
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  Magnetic: e5ee962313e22f977d9fe3b074555ae7fda02c12
+
+PODFILE CHECKSUM: f8f9595c77acb5302f8bb24285c763532867dd63
+
+COCOAPODS: 1.8.3
