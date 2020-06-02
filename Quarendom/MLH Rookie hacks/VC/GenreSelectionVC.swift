@@ -99,10 +99,12 @@ class GenreSelectionVC: UIViewController {
                 magnetic.physicsWorld.speed = speed
             }
 //
-//           
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8, execute: {
+        if(!GenreSelection.isEmpty){
+           DispatchQueue.main.asyncAfter(deadline: .now() + 0.8, execute: {
             self.performSegue(withIdentifier: "GenreToQues", sender: self)
             })
+        }
+            
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
