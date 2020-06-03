@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KRk-OK-kJF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Joy-4X-S3k">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -19,12 +19,12 @@
         <!--Movie QuestionsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="MovieQuestionsVC" customModule="MovieMagic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="MovieQuestionsVC" customModule="Quarendom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAx-d0-N1F" customClass="ShadowView" customModule="MovieMagic" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAx-d0-N1F" customClass="ShadowView" customModule="Quarendom" customModuleProvider="target">
                                 <rect key="frame" x="16" y="366.33333333333326" width="343" height="419.66666666666674"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we start recommending you, we’d like you to rate some movies first" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnB-Gn-6qS">
@@ -37,7 +37,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nnj-z9-dvJ">
                                         <rect key="frame" x="8" y="87.666666666666686" width="327" height="300"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBV-oZ-N6b" userLabel="Option View" customClass="ShadowView" customModule="MovieMagic" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBV-oZ-N6b" userLabel="Option View" customClass="ShadowView" customModule="Quarendom" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="327" height="60"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Star Wars : Rise of SkyWalker" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IA4-9m-YOw">
@@ -91,7 +91,7 @@
                                                     <constraint firstAttribute="bottom" secondItem="IA4-9m-YOw" secondAttribute="bottom" constant="8" id="v0z-f5-iQV"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rL9-27-aXB" userLabel="Option View" customClass="ShadowView" customModule="MovieMagic" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rL9-27-aXB" userLabel="Option View" customClass="ShadowView" customModule="Quarendom" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="80" width="327" height="60"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Wick" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5m-xc-WfL">
@@ -145,7 +145,7 @@
                                                     <constraint firstItem="a5m-xc-WfL" firstAttribute="top" secondItem="rL9-27-aXB" secondAttribute="top" constant="8" id="m7O-27-NfR"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kh-DU-10n" userLabel="Option View" customClass="ShadowView" customModule="MovieMagic" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kh-DU-10n" userLabel="Option View" customClass="ShadowView" customModule="Quarendom" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="160" width="327" height="60"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Wick" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3XJ-bw-bku">
@@ -199,7 +199,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="sds-td-bJk" secondAttribute="trailing" constant="8" id="rUo-OW-LjV"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Cn-qo-BNQ" userLabel="Option View" customClass="ShadowView" customModule="MovieMagic" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Cn-qo-BNQ" userLabel="Option View" customClass="ShadowView" customModule="Quarendom" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="240" width="327" height="60"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Wick 3 : Parabellum" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RTf-u0-Gyx">
@@ -337,7 +337,7 @@
         <!--Movie RecommendationsVC-->
         <scene sceneID="tAi-dY-jAf">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Q52-bw-vgF" customClass="MovieRecommendationsVC" customModule="MovieMagic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Q52-bw-vgF" customClass="MovieRecommendationsVC" customModule="Quarendom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Znh-Qn-H2V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -362,14 +362,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="MoviePredictionCell" id="L16-3y-sen" userLabel="Card 1" customClass="MoviePredictionCell" customModule="MovieMagic" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="MoviePredictionCell" id="L16-3y-sen" userLabel="Card 1" customClass="MoviePredictionCell" customModule="Quarendom" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="9.6666666666666661" width="299" height="410"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Kxo-UE-utS">
                                             <rect key="frame" x="0.0" y="0.0" width="299" height="410"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XkN-Ec-C0c" customClass="ShadowView" customModule="MovieMagic" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XkN-Ec-C0c" customClass="ShadowView" customModule="Quarendom" customModuleProvider="target">
                                                     <rect key="frame" x="20" y="20" width="259" height="370"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clap" translatesAutoresizingMaskIntoConstraints="NO" id="rHK-bH-1r1">
@@ -497,7 +497,7 @@
         <!--Genre Vs SurpVC-->
         <scene sceneID="Tts-Kc-Qnx">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="KRk-OK-kJF" customClass="GenreVsSurpVC" customModule="MovieMagic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="KRk-OK-kJF" customClass="GenreVsSurpVC" customModule="Quarendom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CLU-Bm-vKX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -551,7 +551,7 @@
         <!--Genre SelectionVC-->
         <scene sceneID="4QJ-Xk-xzg">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Jag-0r-uSc" customClass="GenreSelectionVC" customModule="MovieMagic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Jag-0r-uSc" customClass="GenreSelectionVC" customModule="Quarendom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WRs-DN-pnp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -634,6 +634,121 @@
             </objects>
             <point key="canvasLocation" x="42" y="825"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Dmk-0m-HL1">
+            <objects>
+                <viewController id="Joy-4X-S3k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NTX-pO-95J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7R-dM-37u">
+                                <rect key="frame" x="163" y="383" width="49" height="49"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="36"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54i-rv-1sZ">
+                                <rect key="frame" x="16" y="512" width="343" height="99"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="Surprise Me"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHp-fA-hZm">
+                                <rect key="frame" x="16" y="204" width="343" height="99"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="Select Genre Music"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.87058823529411766" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="d7R-dM-37u" firstAttribute="leading" secondItem="YhR-Dv-n7s" secondAttribute="leading" constant="163" id="1JR-Bv-Hzf"/>
+                            <constraint firstItem="vHp-fA-hZm" firstAttribute="leading" secondItem="YhR-Dv-n7s" secondAttribute="leading" constant="16" id="3hD-xX-FTP"/>
+                            <constraint firstItem="YhR-Dv-n7s" firstAttribute="trailing" secondItem="54i-rv-1sZ" secondAttribute="trailing" constant="16" id="7BC-OC-vKD"/>
+                            <constraint firstItem="54i-rv-1sZ" firstAttribute="leading" secondItem="YhR-Dv-n7s" secondAttribute="leading" constant="16" id="8Qc-XC-IT5"/>
+                            <constraint firstItem="d7R-dM-37u" firstAttribute="top" secondItem="vHp-fA-hZm" secondAttribute="bottom" constant="80" id="EQZ-KN-hab"/>
+                            <constraint firstItem="vHp-fA-hZm" firstAttribute="top" secondItem="YhR-Dv-n7s" secondAttribute="top" constant="160" id="FYH-0y-2ZW"/>
+                            <constraint firstItem="YhR-Dv-n7s" firstAttribute="trailing" secondItem="vHp-fA-hZm" secondAttribute="trailing" constant="16" id="MWO-bA-0uw"/>
+                            <constraint firstItem="YhR-Dv-n7s" firstAttribute="trailing" secondItem="d7R-dM-37u" secondAttribute="trailing" constant="163" id="cYS-Ze-cRE"/>
+                            <constraint firstItem="54i-rv-1sZ" firstAttribute="top" secondItem="d7R-dM-37u" secondAttribute="bottom" constant="80" id="rc4-H3-FUF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YhR-Dv-n7s"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDO-OM-45c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-855" y="136"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lMd-QR-hW7">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="qdU-Cz-kwR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jKc-XK-RYy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell us What You Like" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wr3-Lu-ylP">
+                                <rect key="frame" x="16" y="84" width="343" height="49.333333333333343"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="36"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gj2-8a-bMh" customClass="MagneticView" customModule="Magnetic">
+                                <rect key="frame" x="16" y="201.33333333333334" width="343" height="446.66666666666663"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.87058823529999996" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the genres you like. Tap again to deselect the genres" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-ll-W0v">
+                                <rect key="frame" x="16" y="141.33333333333334" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="UYQ-im-91d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XX5-cE-8wg">
+                                <rect key="frame" x="59" y="666" width="257" height="104"/>
+                                <state key="normal" image="Done">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ct-vi-fBp">
+                                <rect key="frame" x="30" y="40" width="20" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="JCi-00-DO8"/>
+                                </constraints>
+                                <state key="normal" image="Black Back Arrow "/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686270000003" green="0.87058823529999996" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XX5-cE-8wg" firstAttribute="top" secondItem="gj2-8a-bMh" secondAttribute="bottom" constant="18" id="69S-qS-kM6"/>
+                            <constraint firstItem="Wr3-Lu-ylP" firstAttribute="top" secondItem="aMA-ol-dwl" secondAttribute="top" constant="40" id="6IN-rx-4Ms"/>
+                            <constraint firstItem="gj2-8a-bMh" firstAttribute="leading" secondItem="aMA-ol-dwl" secondAttribute="leading" constant="16" id="8ce-jg-iZV"/>
+                            <constraint firstItem="aMA-ol-dwl" firstAttribute="trailing" secondItem="Wr3-Lu-ylP" secondAttribute="trailing" constant="16" id="CMO-fo-ZOp"/>
+                            <constraint firstItem="aMA-ol-dwl" firstAttribute="bottom" secondItem="XX5-cE-8wg" secondAttribute="bottom" constant="8" id="E9P-f0-PK2"/>
+                            <constraint firstItem="XX5-cE-8wg" firstAttribute="top" secondItem="gj2-8a-bMh" secondAttribute="bottom" constant="18" id="MIx-L7-gvP"/>
+                            <constraint firstItem="aMA-ol-dwl" firstAttribute="trailing" secondItem="XX5-cE-8wg" secondAttribute="trailing" constant="59" id="PHP-42-yE6"/>
+                            <constraint firstItem="9Ct-vi-fBp" firstAttribute="top" secondItem="jKc-XK-RYy" secondAttribute="top" constant="40" id="SbT-kd-g4O"/>
+                            <constraint firstItem="aMA-ol-dwl" firstAttribute="bottom" secondItem="XX5-cE-8wg" secondAttribute="bottom" constant="8" id="U3B-v9-89p"/>
+                            <constraint firstItem="aMA-ol-dwl" firstAttribute="trailing" secondItem="gj2-8a-bMh" secondAttribute="trailing" constant="16" id="Xlu-wP-z83"/>
+                            <constraint firstItem="Wr3-Lu-ylP" firstAttribute="top" secondItem="9Ct-vi-fBp" secondAttribute="bottom" constant="10" id="cqw-pV-AnX"/>
+                            <constraint firstItem="aMA-ol-dwl" firstAttribute="trailing" secondItem="j1U-ll-W0v" secondAttribute="trailing" constant="16" id="kaG-Zj-zyV"/>
+                            <constraint firstItem="j1U-ll-W0v" firstAttribute="top" secondItem="Wr3-Lu-ylP" secondAttribute="bottom" constant="8" id="lWE-Dl-qY8"/>
+                            <constraint firstItem="XX5-cE-8wg" firstAttribute="leading" secondItem="aMA-ol-dwl" secondAttribute="leading" constant="59" id="m7k-Pd-m6G"/>
+                            <constraint firstItem="gj2-8a-bMh" firstAttribute="top" secondItem="j1U-ll-W0v" secondAttribute="bottom" id="mLX-hG-mGt"/>
+                            <constraint firstItem="j1U-ll-W0v" firstAttribute="leading" secondItem="aMA-ol-dwl" secondAttribute="leading" constant="16" id="me1-p1-xxZ"/>
+                            <constraint firstItem="Wr3-Lu-ylP" firstAttribute="leading" secondItem="aMA-ol-dwl" secondAttribute="leading" constant="16" id="tbO-em-IwR"/>
+                            <constraint firstItem="9Ct-vi-fBp" firstAttribute="leading" secondItem="aMA-ol-dwl" secondAttribute="leading" constant="30" id="ukw-ZE-vbE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aMA-ol-dwl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kqw-hL-HTh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lbp-ek-2aQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-855" y="825"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="XuX-ym-hCl"/>
@@ -642,9 +757,11 @@
     <resources>
         <image name="BG" width="375" height="812"/>
         <image name="Back Arrow" width="20" height="34"/>
+        <image name="Black Back Arrow " width="20" height="33"/>
         <image name="Done" width="257" height="104"/>
         <image name="Here are our Recomme" width="306" height="63"/>
         <image name="Select Genre" width="311" height="99"/>
+        <image name="Select Genre Music" width="311" height="99"/>
         <image name="Surprise Me" width="311" height="99"/>
         <image name="clap" width="246" height="224"/>
         <image name="get more" width="299" height="86"/>
