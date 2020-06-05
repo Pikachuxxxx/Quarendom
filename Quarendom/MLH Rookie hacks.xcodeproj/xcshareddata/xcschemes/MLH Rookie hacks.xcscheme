@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "87C4BA732482BFAB009F23BA"
-               BuildableName = "MovieMagic.app"
+               BuildableName = "Quarendom.app"
                BlueprintName = "MLH Rookie hacks"
                ReferencedContainer = "container:MLH Rookie hacks.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87C4BA732482BFAB009F23BA"
-            BuildableName = "MovieMagic.app"
+            BuildableName = "Quarendom.app"
             BlueprintName = "MLH Rookie hacks"
             ReferencedContainer = "container:MLH Rookie hacks.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87C4BA732482BFAB009F23BA"
-            BuildableName = "MovieMagic.app"
+            BuildableName = "Quarendom.app"
             BlueprintName = "MLH Rookie hacks"
             ReferencedContainer = "container:MLH Rookie hacks.xcodeproj">
          </BuildableReference>
