@@ -1,6 +1,8 @@
 # Quarendom
 How are you feeling lately pretty bored eh? Don't know what movies to watch, or what songs to listen or having trouble finding books to read. Wait no more get Quarendom. It helps you find stuff based on your interests and helps you kill the boredom.
 
+We Used advanced machine learning Recommendation system to recommend the best movies songs and books for you. (Beware of the super conscious AI !!!!)
+
 ## Concept Design made in Sketch
 <p float="left">
   <img src="https://github.com/Pikachuxxxx/Quarendom/blob/master/Demo%20SS/Genre%20Selection%20Music.png" height="200" />
