@@ -18,5 +18,10 @@ public class SegueIdentifiers
     public let GenselectionToGenVsSurp = "GenselectionToGenVsSurp"
     public let GenreToQues = "GenreToQues"
 
-
+    public class Music
+    {
+        public let SurpriseSongsQuestions = "SurpriseSongsQuestions"
+        public let SongsGenreSelection = "SongsGenreSelection"
+        public let GVSToGenSelection = "GVSToGenSelection"
+    }
 }

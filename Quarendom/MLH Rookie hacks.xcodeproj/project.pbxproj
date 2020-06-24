@@ -22,6 +22,9 @@
 		87384C1724839575002C51F8 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0D24839575002C51F8 /* OpenSans-SemiBold.ttf */; };
 		87384C1924839995002C51F8 /* MovieRecommendationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */; };
 		87384C1B24839C06002C51F8 /* MoviePredictionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C1A24839C06002C51F8 /* MoviePredictionCell.swift */; };
+		874D857C248A3DA3004C2182 /* SongsGVSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D857B248A3DA3004C2182 /* SongsGVSVC.swift */; };
+		874D857E248A3EEC004C2182 /* SongsGenSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D857D248A3EEC004C2182 /* SongsGenSelection.swift */; };
+		874D8580248A3FB1004C2182 /* SongsQuesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D857F248A3FB1004C2182 /* SongsQuesVC.swift */; };
 		8784BCE824853C2300F57920 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784BCE724853C2300F57920 /* Extensions.swift */; };
 		8784BCEA24853DF500F57920 /* GenreSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784BCE924853DF500F57920 /* GenreSelectionVC.swift */; };
 		87C4BA782482BFAB009F23BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA772482BFAB009F23BA /* AppDelegate.swift */; };
@@ -53,9 +56,12 @@
 		87384C0D24839575002C51F8 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRecommendationsVC.swift; sourceTree = "<group>"; };
 		87384C1A24839C06002C51F8 /* MoviePredictionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePredictionCell.swift; sourceTree = "<group>"; };
+		874D857B248A3DA3004C2182 /* SongsGVSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsGVSVC.swift; sourceTree = "<group>"; };
+		874D857D248A3EEC004C2182 /* SongsGenSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsGenSelection.swift; sourceTree = "<group>"; };
+		874D857F248A3FB1004C2182 /* SongsQuesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsQuesVC.swift; sourceTree = "<group>"; };
 		8784BCE724853C2300F57920 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8784BCE924853DF500F57920 /* GenreSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSelectionVC.swift; sourceTree = "<group>"; };
-		87C4BA742482BFAB009F23BA /* MovieMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C4BA742482BFAB009F23BA /* Quarendom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quarendom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C4BA772482BFAB009F23BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87C4BA792482BFAB009F23BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuestionsVC.swift; sourceTree = "<group>"; };
@@ -116,6 +122,28 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		874D8578248A3CAE004C2182 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				87384C1A24839C06002C51F8 /* MoviePredictionCell.swift */,
+				87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */,
+				87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */,
+				87DE415724853871009B9D51 /* GenreVsSurpVC.swift */,
+				8784BCE924853DF500F57920 /* GenreSelectionVC.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		874D857A248A3CFB004C2182 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				874D857B248A3DA3004C2182 /* SongsGVSVC.swift */,
+				874D857D248A3EEC004C2182 /* SongsGenSelection.swift */,
+				874D857F248A3FB1004C2182 /* SongsQuesVC.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		87C4BA6B2482BFAB009F23BA = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +158,7 @@
 		87C4BA752482BFAB009F23BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87C4BA742482BFAB009F23BA /* MovieMagic.app */,
+				87C4BA742482BFAB009F23BA /* Quarendom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +170,6 @@
 				87CFF1422483F62100B5DBC5 /* Datasets */,
 				87CFF1432483F63100B5DBC5 /* VC */,
 				87D3BDAA24861F7800D3E662 /* SegueIdentifiers.swift */,
-				87384C1A24839C06002C51F8 /* MoviePredictionCell.swift */,
 				8784BCE724853C2300F57920 /* Extensions.swift */,
 				87C4BA7D2482BFAB009F23BA /* Main.storyboard */,
 				87C4BA822482BFB3009F23BA /* LaunchScreen.storyboard */,
@@ -174,10 +201,8 @@
 		87CFF1432483F63100B5DBC5 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */,
-				87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */,
-				87DE415724853871009B9D51 /* GenreVsSurpVC.swift */,
-				8784BCE924853DF500F57920 /* GenreSelectionVC.swift */,
+				874D857A248A3CFB004C2182 /* Music */,
+				874D8578248A3CAE004C2182 /* Movies */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -210,7 +235,7 @@
 			);
 			name = "MLH Rookie hacks";
 			productName = "MLH Rookie hacks";
-			productReference = 87C4BA742482BFAB009F23BA /* MovieMagic.app */;
+			productReference = 87C4BA742482BFAB009F23BA /* Quarendom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -320,13 +345,16 @@
 				87D3BDAB24861F7800D3E662 /* SegueIdentifiers.swift in Sources */,
 				8784BCEA24853DF500F57920 /* GenreSelectionVC.swift in Sources */,
 				87384C1B24839C06002C51F8 /* MoviePredictionCell.swift in Sources */,
+				874D8580248A3FB1004C2182 /* SongsQuesVC.swift in Sources */,
 				87C4BA7C2482BFAB009F23BA /* MovieQuestionsVC.swift in Sources */,
 				871A51BB248385560026D2E8 /* MovieRecommender.mlmodel in Sources */,
 				87DE415824853871009B9D51 /* GenreVsSurpVC.swift in Sources */,
+				874D857E248A3EEC004C2182 /* SongsGenSelection.swift in Sources */,
 				87C4BA782482BFAB009F23BA /* AppDelegate.swift in Sources */,
 				8784BCE824853C2300F57920 /* Extensions.swift in Sources */,
 				87C4BA7A2482BFAB009F23BA /* SceneDelegate.swift in Sources */,
 				87384C1924839995002C51F8 /* MovieRecommendationsVC.swift in Sources */,
+				874D857C248A3DA3004C2182 /* SongsGVSVC.swift in Sources */,
 				87C4BA912482CDC1009F23BA /* ShadowView.swift in Sources */,
 				87384C02248391E2002C51F8 /* CenterViewFlowLayout.swift in Sources */,
 			);
@@ -474,14 +502,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8HT35697U5;
 				INFOPLIST_FILE = "MLH Rookie hacks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.MLH-Rookie-hacks";
-				PRODUCT_NAME = MovieMagic;
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PS.Quarendom;
+				PRODUCT_NAME = Quarendom;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -493,14 +523,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8HT35697U5;
 				INFOPLIST_FILE = "MLH Rookie hacks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.MLH-Rookie-hacks";
-				PRODUCT_NAME = MovieMagic;
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PS.Quarendom;
+				PRODUCT_NAME = Quarendom;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
